@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+
+.font-class {
+  font-family: "Bungee Inline", cursive;
+  color:black;
+}
+
+.product-image {
+  position: absolute;
+  right: 410px;
+  margin-top: 50px;
+}
+
+.text-width{
+   max-width:330px
+   /* overflow: ellipsis; */
+}

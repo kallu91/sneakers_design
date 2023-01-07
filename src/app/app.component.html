@@ -1,0 +1,62 @@
+<header class="flex justify-around items-center mt-3 mb-3">
+  <div>
+    <h1 class="font-class text-4xl">Sneakers</h1>
+  </div>
+  <div>
+    <ul class="flex gap-9 font-medium">
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>Collections</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <div class="absolute right-[285px]">
+    <img src="../assets/images/icon-cart.svg" />
+  </div>
+  <div>
+    <img src="../assets/images/image-avatar.png" />
+  </div>
+</header>
+<hr />
+<section class="product-image grid grid-cols-2 gap-40">
+  <div>
+    <img class="w-[330px] rounded-[10px] " src="../assets/images/image-product-1.jpg" />
+    <div class="flex gap-1 mt-2">
+      <img
+        class="w-[80px] rounded-[8px]"
+        src="../assets/images/image-product-1-thumbnail.jpg"
+      />
+      <img
+        class="w-[80px] rounded-[8px]"
+        src="../assets/images/image-product-2-thumbnail.jpg"
+      />
+      <img
+        class="w-[80px] rounded-[8px]"
+        src="../assets/images/image-product-3-thumbnail.jpg"
+      />
+      <img
+        class="w-[80px] rounded-[8px]"
+        src="../assets/images/image-product-4-thumbnail.jpg"
+      />
+    </div>
+  </div>
+  <div>
+    <div>
+    <p class="text-orange-500 p-2 font-medium">Sneakers company</p>
+    <p class="p-2 text-4xl max-w-[330px] font-semibold">Fall Limited Edition Sneakers</p>
+  </div>
+  <div>
+    <p class="text-width p-2">Sneakers are a type of shoe that are designed for comfortable, casual wear. They typically have a low profile and a flexible sole made of rubber or synthetic material. </p>
+  </div>
+  <div class="p-4">
+    <h4 class="mb-1 text-2xl font-semibold">$125.00 <span class="bg-amber-200 text-xs rounded-sm p-1 ">50%</span></h4>
+    
+    <del>$250.00</del>
+  </div>
+  <div class="flex justify-between mt-3">
+    <button class=" bg-slate-100 p-2 flex items-center justify-evenly rounded-[5px] w-[200px]"><span class="text-2xl ">+</span><span class="text-xl">{{count}}</span><span class="text-4xl">-</span></button>
+    <button class="bg-amber-500 p-3 rounded-[5px] font-bold">Add To Cart</button>
+  </div>
+  </div>
+</section>
